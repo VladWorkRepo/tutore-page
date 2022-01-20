@@ -5,7 +5,7 @@
         app
         >
         <v-row style="height: 64px" class="d-flex justify-space-around">
-            <v-col  lg="2">
+            <v-col style="height: 64px" lg="2">
                 <img width="200" src="../../assets/logo/main_logo.webp" alt="Tutore">
             </v-col>
             <v-col style="height: 64px" lg="3" class="d-flex justify-space-around align-center">
@@ -23,13 +23,3 @@
         </v-app-bar>
     </nav>
 </template>
-
-<script>
-export default {
-
-}
-</script>
-
-<style scoped>
-
-</style>
