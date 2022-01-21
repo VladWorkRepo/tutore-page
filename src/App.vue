@@ -4,6 +4,9 @@
     <v-main>
       <the-promo></the-promo>
       <basic-form></basic-form>
+      <upper-plates></upper-plates>
+      <about-general></about-general>
+      <about-business></about-business>
     </v-main>
     
   </v-app>
@@ -13,12 +16,19 @@
 import TheHeader from './components/layouts/TheHeader.vue';
 import ThePromo from './components/layouts/ThePromo.vue';
 import BasicForm from './components/ui/BasicForm.vue';
+import UpperPlates from './components/plates/UpperPlates.vue';
+import AboutGeneral from './components/about/AboutGeneral.vue';
+import AboutBusiness from './components/about/AboutBusiness.vue';
+
 
 export default {
   components: {
     TheHeader,
     ThePromo,
-    BasicForm
+    BasicForm,
+    UpperPlates,
+    AboutGeneral,
+    AboutBusiness
   },
 };
 </script>
