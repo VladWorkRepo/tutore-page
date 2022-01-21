@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <the-header></the-header>
-    <v-main>
+    <v-main class="pa-0">
       <the-promo></the-promo>
       <basic-form></basic-form>
       <upper-plates></upper-plates>

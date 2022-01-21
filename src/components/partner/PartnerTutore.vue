@@ -10,7 +10,7 @@
                 <ul class="respons">
                     <li class="respons-item">
                         <div class="respons-item_icon">
-                            <v-icon color="#813188">done</v-icon>
+                             <i class="fas fa-check" style="font-size:24px; color:#813188"></i>
                         </div>
                         <div class="respons-item_text">
                             Przedstawianie oferty kursów dla dzieci i dorosłych
@@ -18,7 +18,7 @@
                     </li>
                     <li class="respons-item">
                         <div class="respons-item_icon">
-                            <v-icon color="#813188">done</v-icon>
+                            <i class="fas fa-check" style="font-size:24px; color:#813188"></i>
                         </div>
                         <div class="respons-item_text">
                             Zapraszanie na zajęcia pokazowe dzieci i ich rodziców
@@ -26,7 +26,7 @@
                     </li>
                     <li class="respons-item">
                         <div class="respons-item_icon">
-                            <v-icon color="#813188">done</v-icon>
+                             <i class="fas fa-check" style="font-size:24px; color:#813188"></i>
                         </div>
                         <div class="respons-item_text">
                             Zapisywanie dzieci i rodziców na kursy stałe
@@ -34,7 +34,7 @@
                     </li>
                     <li class="respons-item">
                         <div class="respons-item_icon">
-                             <v-icon color="#813188">done</v-icon>
+                              <i class="fas fa-check" style="font-size:24px; color:#813188"></i>
                         </div>
                         <div class="respons-item_text">
                             Stały kontakt z klientami
@@ -42,7 +42,7 @@
                     </li>
                     <li class="respons-item">
                         <div class="respons-item_icon">
-                             <v-icon color="#813188">done</v-icon>
+                              <i class="fas fa-check" style="font-size:24px; color:#813188"></i>
                         </div>
                         <div class="respons-item_text">
                             Umacnianie pozycji firmy na rynku lokalnym
@@ -50,7 +50,7 @@
                     </li>
                     <li class="respons-item">
                         <div class="respons-item_icon">
-                             <v-icon color="#813188">done</v-icon>
+                              <i class="fas fa-check" style="font-size:24px; color:#813188"></i>
                         </div>
                         <div class="respons-item_text">
                             Budowanie pozytywnego wizerunku firmy
@@ -58,7 +58,7 @@
                     </li>
                     <li class="respons-item">
                         <div class="respons-item_icon">
-                             <v-icon color="#813188">done</v-icon>
+                              <i class="fas fa-check" style="font-size:24px; color:#813188"></i>
                         </div>
                         <div class="respons-item_text">
                             Działania wzmacniające rozpoznawalność marki Tutore.
