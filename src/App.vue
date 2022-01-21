@@ -10,6 +10,7 @@
       <step-by-step></step-by-step>
       <partner-tutore></partner-tutore>
       <down-plates></down-plates>
+      <be-partner></be-partner>
     </v-main>
     
   </v-app>
@@ -25,6 +26,7 @@ import AboutGeneral from './components/about/AboutGeneral.vue';
 import AboutBusiness from './components/about/AboutBusiness.vue';
 import StepByStep from './components/partner/StepByStep.vue';
 import PartnerTutore from './components/partner/PartnerTutore.vue';
+import BePartner from './components/partner/BePartner.vue';
 
 
 export default {
@@ -37,7 +39,8 @@ export default {
     AboutGeneral,
     AboutBusiness,
     StepByStep,
-    PartnerTutore
+    PartnerTutore,
+    BePartner
   },
 };
 </script>
