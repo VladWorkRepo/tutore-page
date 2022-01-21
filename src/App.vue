@@ -11,6 +11,7 @@
       <partner-tutore></partner-tutore>
       <down-plates></down-plates>
       <be-partner></be-partner>
+      <basic-form mode="colored-bg" textColor="white-text"></basic-form>
     </v-main>
     
   </v-app>

@@ -1,16 +1,16 @@
 <template>
-    <form>
+    <form :class="mode">
         <v-row class="d-flex align-end justify-center">
             <v-col lg="3">
-                <label class="inputLabel" for="name">Imię</label>
+                <label class="inputLabel" :class="textColor" for="name">Imię</label>
                 <input class="inputField" type="text" id="name" />
             </v-col>
             <v-col lg="3">
-                <label class="inputLabel" for="name">Nazwisko</label>
+                <label class="inputLabel" :class="textColor" for="name">Nazwisko</label>
                 <input  class="inputField" type="text" id="name" />
             </v-col>
             <v-col lg="3">
-                <label class="inputLabel" for="name">Numer telefonu</label>
+                <label class="inputLabel" :class="textColor" for="name">Numer telefonu</label>
                 <input class="inputField" type="text" id="name" />
             </v-col>
             <v-col lg="3">
@@ -20,13 +20,19 @@
         <v-row>
             <v-col lg="12">
                 <input class="checkboxInput" id="check" type="checkbox" >
-                <label class="checkboxLabel" for="check">
+                <label class="checkboxLabel" :class="textColor" for="check">
                     Potwierdzam zapoznanie się z klauzulą informacyjną dotyczącą przetwarzania moich danych osobowych przez Music & More Sp. z o.o. oraz wyrażam zgodę na kontakt telefoniczny w celach biznesowych.
                 </label>
             </v-col>
         </v-row>
     </form>
 </template>
+
+<script>
+export default {
+    props: ['mode','textColor']
+}
+</script>
 
 <style scoped>
 form {
@@ -80,6 +86,14 @@ button:hover {
     font-size: 12px;
     color: #372E3B;
     font-weight: 400;
+}
+
+.colored-bg {
+    background-color: #36348A;
+}
+
+.white-text {
+    color: #FCFCFC;
 }
 
 </style>
