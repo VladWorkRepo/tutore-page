@@ -7,6 +7,7 @@
       <upper-plates></upper-plates>
       <about-general></about-general>
       <about-business></about-business>
+      <step-by-step></step-by-step>
     </v-main>
     
   </v-app>
@@ -19,6 +20,7 @@ import BasicForm from './components/ui/BasicForm.vue';
 import UpperPlates from './components/plates/UpperPlates.vue';
 import AboutGeneral from './components/about/AboutGeneral.vue';
 import AboutBusiness from './components/about/AboutBusiness.vue';
+import StepByStep from './components/partner/StepByStep.vue';
 
 
 export default {
@@ -28,7 +30,8 @@ export default {
     BasicForm,
     UpperPlates,
     AboutGeneral,
-    AboutBusiness
+    AboutBusiness,
+    StepByStep
   },
 };
 </script>
