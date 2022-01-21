@@ -8,6 +8,7 @@
       <about-general></about-general>
       <about-business></about-business>
       <step-by-step></step-by-step>
+      <partner-tutore></partner-tutore>
     </v-main>
     
   </v-app>
@@ -21,6 +22,7 @@ import UpperPlates from './components/plates/UpperPlates.vue';
 import AboutGeneral from './components/about/AboutGeneral.vue';
 import AboutBusiness from './components/about/AboutBusiness.vue';
 import StepByStep from './components/partner/StepByStep.vue';
+import PartnerTutore from './components/partner/PartnerTutore.vue';
 
 
 export default {
@@ -31,7 +33,8 @@ export default {
     UpperPlates,
     AboutGeneral,
     AboutBusiness,
-    StepByStep
+    StepByStep,
+    PartnerTutore
   },
 };
 </script>
