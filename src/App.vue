@@ -9,6 +9,7 @@
       <about-business></about-business>
       <step-by-step></step-by-step>
       <partner-tutore></partner-tutore>
+      <down-plates></down-plates>
     </v-main>
     
   </v-app>
@@ -19,6 +20,7 @@ import TheHeader from './components/layouts/TheHeader.vue';
 import ThePromo from './components/layouts/ThePromo.vue';
 import BasicForm from './components/ui/BasicForm.vue';
 import UpperPlates from './components/plates/UpperPlates.vue';
+import DownPlates from './components/plates/DownPlates.vue';
 import AboutGeneral from './components/about/AboutGeneral.vue';
 import AboutBusiness from './components/about/AboutBusiness.vue';
 import StepByStep from './components/partner/StepByStep.vue';
@@ -31,6 +33,7 @@ export default {
     ThePromo,
     BasicForm,
     UpperPlates,
+    DownPlates,
     AboutGeneral,
     AboutBusiness,
     StepByStep,

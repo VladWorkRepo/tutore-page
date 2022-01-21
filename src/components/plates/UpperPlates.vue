@@ -88,7 +88,7 @@ export default {
 
 .card-text {
     padding: 0 8px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     text-align: center;
     color: #813188;
