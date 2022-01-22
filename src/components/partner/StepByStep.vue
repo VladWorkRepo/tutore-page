@@ -33,7 +33,7 @@
 
 <style scoped>
 .step {
-    padding: 128px 0 153px 0; 
+    padding-bottom: 153px; 
 }
 .steps {
     margin-top: 38px;

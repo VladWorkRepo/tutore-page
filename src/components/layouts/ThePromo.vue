@@ -13,10 +13,6 @@
 <style scoped>
 .promo {
     min-height: 456px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     background: transparent url('../../assets/bg/promo_bg.jpg') 0% 0% no-repeat padding-box;
 }
 

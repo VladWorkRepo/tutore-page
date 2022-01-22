@@ -29,7 +29,6 @@ import StepByStep from './components/partner/StepByStep.vue';
 import PartnerTutore from './components/partner/PartnerTutore.vue';
 import BePartner from './components/partner/BePartner.vue';
 
-
 export default {
   components: {
     TheHeader,
@@ -41,7 +40,7 @@ export default {
     AboutBusiness,
     StepByStep,
     PartnerTutore,
-    BePartner
+    BePartner,
   },
 };
 </script>
