@@ -1,7 +1,7 @@
 <template>
     <section class="plates">
         <v-row>
-            <v-col offset-xl="1" lg='12' xl="10" class="d-flex justify-space-around">
+            <v-col offset-xl='1' offset-md='1' offset-lg='0' md='10' lg='12' xl="10" class="d-flex justify-space-around flex-wrap">
                 <div class="card">
                     <div class="card-icon">
                         <img src="../../assets/icons/arrow.svg" alt="reasons">
@@ -91,5 +91,11 @@
     font-size: 16px;
     text-align: center;
     color: #813188;
+}
+
+@media screen and (max-width: 1904px) {
+.card {
+   margin-top: 10px;
+  }
 }
 </style>

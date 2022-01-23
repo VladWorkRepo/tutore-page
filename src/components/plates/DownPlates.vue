@@ -4,7 +4,7 @@
             <v-col xl='3' lg='5'>
                 <h2 class="plates-title">Dlaczego warto?</h2>
             </v-col>
-            <v-col xl='12' lg='12' class="d-flex justify-space-around flex-wrap">
+            <v-col xl='12' lg='12' md='12' class="d-flex justify-space-around flex-wrap">
                 <div class="card">
                     <div class="card-icon">
                         <img src="../../assets/icons/hands-helping.svg" alt="reasons">

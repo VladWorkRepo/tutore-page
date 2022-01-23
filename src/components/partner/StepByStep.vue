@@ -1,10 +1,10 @@
 <template>
     <section class="step">
         <v-row class="d-flex align-end">
-            <v-col offset-xl='1' xl='4' lg='6' class="step-bg d-flex justify-center">
+            <v-col offset-xl='1' xl='4' lg='6' md='6' class="step-bg d-flex justify-center">
                 <img src="../../assets/bg/steps-bg.png" alt="#">
             </v-col>
-            <v-col offset-xl='1' xl='4' lg='6'>
+            <v-col offset-xl='1' xl='4' lg='5' md='6'>
                 <h2 class="steps-title">Start krok po kroku</h2>
                 <div class="steps">
                     <div class="steps-content">

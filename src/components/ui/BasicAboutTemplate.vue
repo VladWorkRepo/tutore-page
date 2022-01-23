@@ -1,7 +1,7 @@
 <template>
     <section class="about">
         <v-row>
-            <v-col offset-xl='1' lg='6' xl='6' class="d-flex justify-center align-center">
+            <v-col offset-xl='1' offset-lg='0' offset-md='2' lg='6' xl='6' md='8' class="d-flex justify-center align-center">
                 <div class="about-text">
                     <h2 class="about-text_title">{{ title }}</h2>
                     <div class="about-text_content">
@@ -11,7 +11,7 @@
                     </div>
                 </div>   
             </v-col>
-            <v-col xl='5' lg='6' class="d-flex justify-start">
+            <v-col offset-xl='0' offset-md='2' offset-lg='0' xl='5' lg='6' md='8' class="about-wrap">
                  <div class="about-bg">
                     <slot></slot>
                 </div>
@@ -46,6 +46,11 @@ export default {
     color: #372E3B;
 }
 
+.about-wrap {
+    display: flex;
+    justify-content: start;
+}
+
 .about-bg img{
         width: 100%;
     }
@@ -58,6 +63,15 @@ export default {
         width: 600px;
         padding: 0 40px 0 40px;
     }
-    
+}
+
+@media screen and (max-width: 1263px) {
+    .about-text_content {
+        width: 800px;
+    }
+    .about-wrap {
+        display: flex;
+        justify-content: center;
+    }
 }
 </style>
