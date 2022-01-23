@@ -1,24 +1,24 @@
 <template>
     <form :class="mode">
         <v-row class="d-flex align-end justify-center">
-            <v-col lg="3">
+            <v-col xl='3' lg="4">
                 <label class="inputLabel" :class="textColor" for="name">Imię</label>
                 <input class="inputField" type="text" id="name" />
             </v-col>
-            <v-col lg="3">
+            <v-col xl='3' lg="4">
                 <label class="inputLabel" :class="textColor" for="name">Nazwisko</label>
                 <input  class="inputField" type="text" id="name" />
             </v-col>
-            <v-col lg="3">
+            <v-col xl='3' lg="4">
                 <label class="inputLabel" :class="textColor" for="name">Numer telefonu</label>
                 <input class="inputField" type="text" id="name" />
             </v-col>
-            <v-col lg="3">
+            <v-col xl='3' lg="4">
                 <button>Wyślij</button>
             </v-col>
         </v-row>
         <v-row>
-            <v-col lg="12">
+            <v-col xl='12' lg="12">
                 <input class="checkboxInput" id="check" type="checkbox" >
                 <label class="checkboxLabel" :class="textColor" for="check">
                     Potwierdzam zapoznanie się z klauzulą informacyjną dotyczącą przetwarzania moich danych osobowych przez Music & More Sp. z o.o. oraz wyrażam zgodę na kontakt telefoniczny w celach biznesowych.
@@ -96,4 +96,9 @@ button:hover {
     color: #FCFCFC;
 }
 
+@media screen and (max-width: 1450px) {
+form {
+   padding: 84px 100px 84px 100px;
+  }
+}
 </style>

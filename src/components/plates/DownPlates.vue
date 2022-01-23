@@ -1,10 +1,10 @@
 <template>
     <section class="plates">
         <v-row>
-            <v-col lg='3'>
+            <v-col xl='3' lg='5'>
                 <h2 class="plates-title">Dlaczego warto?</h2>
             </v-col>
-            <v-col lg='12' class="d-flex justify-space-around">
+            <v-col xl='12' lg='12' class="d-flex justify-space-around flex-wrap">
                 <div class="card">
                     <div class="card-icon">
                         <img src="../../assets/icons/hands-helping.svg" alt="reasons">
@@ -84,5 +84,11 @@
     font-weight: 400;
     font-size: 20px;
     color: #813188;
+}
+
+@media screen and (max-width: 1904px) {
+.plates {
+    padding: 145px 50px 0 50px;
+}
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
     <section class="plates">
         <v-row>
-            <v-col offset-lg="1" lg="10" class="d-flex justify-space-between">
+            <v-col offset-xl="1" lg='12' xl="10" class="d-flex justify-space-around">
                 <div class="card">
                     <div class="card-icon">
                         <img src="../../assets/icons/arrow.svg" alt="reasons">

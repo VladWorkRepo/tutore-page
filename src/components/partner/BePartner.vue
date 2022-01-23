@@ -1,10 +1,10 @@
 <template>
     <section class="be-partner">
         <v-row class="d-flex align-center justify-start">
-            <v-col lg='5'>
+            <v-col xl='5' class='be-partner_bg'>
                 <img src="../../assets/bg/be-partner-bg.jpg" alt="#">
             </v-col>
-            <v-col lg='6' class="ml-6">
+            <v-col xl='6' class="ml-6">
                 <h2 class="be-partner_title">Zostań Partnerem</h2>
                 <div class="be-partner_subtitle">
                     Jeśli posiadasz odpowiednie kompetencje, nie boisz się nowych wyzwań i chcesz mieć realny wpływ na rozwój i edukację dzieci i młodzieży, nie czekaj – wyślij zgłoszenie już dziś.
@@ -22,6 +22,10 @@
 <style scoped>
 .be-partner {
     padding: 177px 0 79px 0;
+}
+
+.be-partner_bg img {
+    width: 100%;
 }
 
 .be-partner .be-partner_title {

@@ -1,7 +1,7 @@
 <template>
     <section class="about">
         <v-row>
-            <v-col offset-lg='1' lg='6' class="d-flex justify-center align-center">
+            <v-col offset-xl='1' lg='6' xl='6' class="d-flex justify-center align-center">
                 <div class="about-text">
                     <h2 class="about-text_title">{{ title }}</h2>
                     <div class="about-text_content">
@@ -11,7 +11,7 @@
                     </div>
                 </div>   
             </v-col>
-            <v-col lg='5' class="d-flex justify-start">
+            <v-col xl='5' lg='6' class="d-flex justify-start">
                  <div class="about-bg">
                     <slot></slot>
                 </div>
@@ -44,5 +44,20 @@ export default {
     font-weight: 400;
     font-size: 20px;
     color: #372E3B;
+}
+
+.about-bg img{
+        width: 100%;
+    }
+
+@media screen and (max-width: 1904px) {
+    .about-text_title {
+        padding: 0 40px 0 40px;
+    }
+    .about-text_content {
+        width: 600px;
+        padding: 0 40px 0 40px;
+    }
+    
 }
 </style>

@@ -1,8 +1,13 @@
 <template>
     <div class="promo">
-        <div style="height:275px" class="d-flex align-end justify-center">
-            <h1 style="font-size:65px; line-height:65px" class="white--text">Zostań Partnerem Tutore</h1>
-        </div>
+        <v-row>
+            <v-col xl='12'>
+                <div style="height:275px" class="d-flex align-end justify-center">
+                    <h1 style="font-size:65px; line-height:65px" class="white--text">Zostań Partnerem Tutore</h1>
+                </div>
+            </v-col>
+        </v-row>
+      
         <div style="height:181px" class="d-flex align-center justify-center">
            <button>Zobacz więcej</button>
         </div>
@@ -12,8 +17,7 @@
 
 <style scoped>
 .promo {
-    min-height: 456px;
-    background: transparent url('../../assets/bg/promo_bg.jpg') 0% 0% no-repeat padding-box;
+    background: transparent url('../../assets/bg/promo_bg.jpg') center/cover no-repeat;
 }
 
 button {

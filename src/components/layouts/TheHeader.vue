@@ -2,15 +2,15 @@
     <nav>
         <v-app-bar
         flat
-        app
+        
         style="height: 90px"
         >
         <v-container style="height: 96px">
             <v-row class="ma-0">
-                <v-col offset-lg='2' lg='8' style="height: 96px" class='d-flex align-center'>
+                <v-col offset-lg='1' offset-xl='2' lg='10' xl='8' style="height: 96px" class='d-flex align-center'>
                     <img width="200" src="../../assets/logo/main_logo.webp" alt="Tutore">
                     <v-spacer></v-spacer>
-                    <div style="width: 40%" class="actions d-flex align-center justify-space-between">
+                    <div class="actions d-flex align-center justify-space-between">
                         <div style="width: 25%" class="actions_social d-flex justify-space-between">
                             <i class="fab fa-linkedin-in" style="font-size:24px; color:#813188"></i>
                             <i class="fab fa-facebook" style="font-size:24px; color:#813188"></i>
@@ -40,6 +40,9 @@
 </template>
 
 <style scoped>
+.actions {
+     width: 40%;
+}
 .actions_button {
     width: 165px;
     height: 35px;
@@ -62,4 +65,9 @@
     border-radius: 2px;
 }
 
+@media screen and (max-width: 1904px) {
+.actions {
+   width: 50%;
+  }
+}
 </style>

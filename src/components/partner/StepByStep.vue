@@ -1,10 +1,10 @@
 <template>
     <section class="step">
         <v-row class="d-flex align-end">
-            <v-col offset-lg='1' lg='5' class="d-flex justify-center">
+            <v-col offset-xl='1' xl='4' lg='6' class="step-bg d-flex justify-center">
                 <img src="../../assets/bg/steps-bg.png" alt="#">
             </v-col>
-            <v-col lg='4'>
+            <v-col offset-xl='1' xl='4' lg='6'>
                 <h2 class="steps-title">Start krok po kroku</h2>
                 <div class="steps">
                     <div class="steps-content">
@@ -34,6 +34,9 @@
 <style scoped>
 .step {
     padding-bottom: 153px; 
+}
+.step-bg img {
+    width: 100%;
 }
 .steps {
     margin-top: 38px;

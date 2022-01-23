@@ -1,10 +1,10 @@
 <template>
     <section class="partner">
         <v-row class="d-flex align-center">
-            <v-col lg='6'>
+            <v-col xl='5' lg='6' class='partner-bg'>
                 <img src="../../assets/bg/partner-tutore-bg.png" alt="#">
             </v-col>
-            <v-col lg='5'>
+            <v-col offset-xl='1' xl='5' lg='6'>
                 <h2 class="partner-title">Czym zajmuje się Partner Tutore?</h2>
                 <p>Twoim zadaniem będzie reprezentowanie szkoły Tutore na lokalnym rynku. Do Twoich obowiązków będzie należało:</p>
                 <ul class="respons">
@@ -71,6 +71,9 @@
 </template>
 
 <style scoped>
+.partner-bg img{
+    width: 100%;
+}
 .partner-title {
     font-size: 42px;
     line-height: 42px;
