@@ -52,7 +52,7 @@
     color: #372E3B;
 }  
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .be-partner .be-partner_content {
         width: 100%;
 

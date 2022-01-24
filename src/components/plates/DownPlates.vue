@@ -95,6 +95,7 @@
 @media screen and (max-width: 600px) {
     .card {
         width: 290px;
+        height: 455px;
     }
 }
 
