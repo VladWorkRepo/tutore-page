@@ -2,72 +2,91 @@
     <nav>
         <v-app-bar
         flat
-        
         style="height: 90px"
         >
+        <v-app-bar-nav-icon class="hamburger" @click="drawer = !drawer"></v-app-bar-nav-icon>
         <v-container style="height: 96px">
             <v-row class="ma-0">
-                <v-col offset-lg='1' offset-xl='2' lg='10' xl='8' style="height: 96px" class='d-flex align-center'>
+                <v-col offset-lg='1' offset-xl='2' lg='10' xl='8' style="height: 96px" class='d-flex align-center jusify-space-between'>
                     <img width="200" src="../../assets/logo/main_logo.webp" alt="Tutore">
                     <v-spacer></v-spacer>
-                    <div class="actions d-flex align-center justify-space-between">
-                        <div style="width: 25%" class="actions_social d-flex justify-space-between">
-                            <i class="fab fa-linkedin-in" style="font-size:24px; color:#813188"></i>
-                            <i class="fab fa-facebook" style="font-size:24px; color:#813188"></i>
-                            <i class="fab fa-youtube" style="font-size:24px; color:#813188" ></i>
-                        </div>
-                        <button class="actions_button">Strona firmowa</button>
-                        <v-menu offset-y>
-                            <template v-slot:activator="{ on }">
-                                <button class="dropdown_button" v-on="on">
-                                    Polski
-                                    <i class="fas fa-caret-down" style="font-size:8px; color:#707070" ></i>
-                                </button>
-                            </template>
-                            <v-list>
-                                <v-list-item >
-                                    <v-list-item-title>Francuski</v-list-item-title>
-                                </v-list-item>
-                            </v-list>
-                        </v-menu>
+                    <div class="action-btn">
+                      <basic-head-buttons></basic-head-buttons>
                     </div>
                 </v-col>
             </v-row>
         </v-container>
         </v-app-bar>
 
+         <v-navigation-drawer class="nav-draw" app v-model="drawer" >
+            <v-list>
+                <v-list-item>
+                    <v-list-item-content class="list-items">
+                        <basic-head-buttons mode="column-direction" action-mode="social-mode">
+                             <img width="200" src="../../assets/logo/main_logo.webp" alt="Tutore">
+                        </basic-head-buttons>
+                    </v-list-item-content>
+                </v-list-item>
+            </v-list>
+        </v-navigation-drawer>
     </nav>
 </template>
 
+<script>
+import BasicHeadButtons from '../ui/BasicHeadButtons.vue';
+
+export default {
+    components: {
+        BasicHeadButtons
+    },
+    data() {
+        return {
+            drawer: false
+        };
+    }
+}
+</script>
 <style scoped>
-.actions {
-     width: 40%;
+.nav-draw {
+    display: none;
 }
-.actions_button {
-    width: 165px;
-    height: 35px;
-    font-weight: 500;
-    color: #813188;
-    border: 1px solid #813188;
-    border-radius: 5px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+.hamburger {
+    display: none;
+    align-items: flex-end;
+    color:#813188
 }
-
-.actions_button:hover {
-    background-color: #e6e1e7;;
+.action-btn {
+    margin-right: 0;
+    display: flex;
+    justify-content: flex-end;
 }
-
-.dropdown_button {
-    width: 130px;
-    height: 33px;
-    border: 1px solid #afafaf;
-    color: #707070;
-    border-radius: 2px;
+.list-items {
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width: 3000px) {
+.action-btn {
+   width: 60%;
+  }
 }
 
 @media screen and (max-width: 1904px) {
-.actions {
-   width: 50%;
+.action-btn {
+   width: 70%;
   }
+}
+
+@media screen and (max-width: 900px) {
+.hamburger {
+   display: flex;
+  }
+
+.action-btn {
+    display: none;
+}
+
+.nav-draw {
+    display: block;
+}
 }
 </style>

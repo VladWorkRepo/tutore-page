@@ -1,7 +1,7 @@
 <template>
     <section class="about">
         <v-row>
-            <v-col offset-xl='1' offset-lg='0' offset-md='2' lg='6' xl='6' md='8' class="d-flex justify-center align-center">
+            <v-col offset-xl='1' offset-lg='0' offset-md='2' cols='12' lg='6' xl='6' md='8' sm='12' class="d-flex justify-center align-center">
                 <div class="about-text">
                     <h2 class="about-text_title">{{ title }}</h2>
                     <div class="about-text_content">
@@ -11,7 +11,7 @@
                     </div>
                 </div>   
             </v-col>
-            <v-col offset-xl='0' offset-md='2' offset-lg='0' xl='5' lg='6' md='8' class="about-wrap">
+            <v-col offset-xl='0' offset-md='2' offset-lg='0' cols='12' xl='5' lg='6' md='8' sm='12' class="about-wrap">
                  <div class="about-bg">
                     <slot></slot>
                 </div>
@@ -52,8 +52,8 @@ export default {
 }
 
 .about-bg img{
-        width: 100%;
-    }
+    width: 100%;
+}
 
 @media screen and (max-width: 1904px) {
     .about-text_title {
@@ -73,5 +73,35 @@ export default {
         display: flex;
         justify-content: center;
     }
+}
+
+@media screen and (max-width: 960px) {
+    .about-text {
+        width: 700px;
+    }
+    .about-text_content {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about-text {
+        width: 580px;
+    }
+    .about-text_content {
+        width: 580px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-text {
+        width: 100%;
+    }
+    .about-text_content {
+        width: 100%;
+    }
+    .about-bg img{
+    width: 100%;
+}
 }
 </style>

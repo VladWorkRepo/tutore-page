@@ -1,10 +1,10 @@
 <template>
     <section class="partner">
         <v-row class="d-flex align-center">
-            <v-col offset-xl='0' offset-lg='0' offset-md='0' xl='5' lg='6' md='11' class='partner-bg'>
+            <v-col offset-xl='0' offset-lg='0' offset-md='0' offset-sm='1' cols='12' xl='5' lg='6' md='11' sm='10' class='partner-bg'>
                 <img src="../../assets/bg/partner-tutore-bg.png" alt="#">
             </v-col>
-            <v-col offset-xl='1' offset-lg='0' offset-md='1' xl='5' lg='6' md='10'>
+            <v-col offset-xl='1' offset-lg='0' offset-md='1'  offset-sm='1' cols='12' xl='5' lg='6' md='10' sm='10'>
                 <h2 class="partner-title">Czym zajmuje się Partner Tutore?</h2>
                 <p>Twoim zadaniem będzie reprezentowanie szkoły Tutore na lokalnym rynku. Do Twoich obowiązków będzie należało:</p>
                 <ul class="respons">

@@ -3,7 +3,7 @@
         <v-row>
             <v-col xl='12'>
                 <div style="height:275px" class="d-flex align-end justify-center">
-                    <h1 style="font-size:65px; line-height:65px" class="white--text">Zostań Partnerem Tutore</h1>
+                    <h1 class="promo-title">Zostań Partnerem Tutore</h1>
                 </div>
             </v-col>
         </v-row>
@@ -18,6 +18,14 @@
 <style scoped>
 .promo {
     background: transparent url('../../assets/bg/promo_bg.jpg') center/cover no-repeat;
+}
+
+.promo .promo-title {
+    padding: 0 10px 0 10px;
+    text-align: center;
+    color: #fff;
+    font-size:65px;
+    line-height:65px;
 }
 
 button {

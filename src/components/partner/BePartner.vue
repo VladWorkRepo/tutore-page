@@ -1,10 +1,10 @@
 <template>
     <section class="be-partner">
         <v-row class="d-flex align-center justify-start">
-            <v-col offset-xl='0' offset-lg='0' offset-md='1' xl='5' lg='6' md='10' class='be-partner_bg'>
+            <v-col offset-xl='0' offset-lg='0' offset-md='1' offset-sm='1' cols='12' xl='5' lg='6' md='10' sm='10' class='be-partner_bg'>
                 <img src="../../assets/bg/be-partner-bg.jpg" alt="#">
             </v-col>
-            <v-col xl='6' md='11' lg='5' class="ml-6">
+            <v-col offset-sm='1' xl='6' md='11' lg='5' sm='10' cols='11' class="ml-6">
                 <h2 class="be-partner_title">Zostań Partnerem</h2>
                 <div class="be-partner_subtitle">
                     Jeśli posiadasz odpowiednie kompetencje, nie boisz się nowych wyzwań i chcesz mieć realny wpływ na rozwój i edukację dzieci i młodzieży, nie czekaj – wyślij zgłoszenie już dziś.
@@ -51,4 +51,11 @@
     line-height: 35px;
     color: #372E3B;
 }  
+
+@media screen and (max-width: 600px) {
+    .be-partner .be-partner_content {
+        width: 100%;
+
+    }  
+}
 </style>
