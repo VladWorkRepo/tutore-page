@@ -102,6 +102,20 @@ form {
   }
 }
 
+@media screen and (max-width: 900px) {
+.inputField {
+    width: 100%;
+}
+
+.inputLabel {
+    width: 220px;
+}
+
+button {
+    width: 100%;
+}
+}
+
 @media screen and (max-width: 450px) {
 form {
    padding: 84px 25px 84px 25px;
@@ -109,35 +123,14 @@ form {
 
 .inputField {
     width: 100%;
-    height: 60px;
-    background: #FCFCFC 0% 0% no-repeat padding-box;
-    box-shadow: inset 0px 3px 6px #00000017;
-    border: 1px solid #707070;
-    border-radius: 15px;
-    opacity: 0.6;
 }
 
 .inputLabel {
     width: 220px;
-    height: 35px;
-    margin-left: 11px;
-    display: block;
-    color: #372E3B;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 36px;
 }
 
 button {
     width: 100%;
-    height: 63px;
-    background: #E72F84 0% 0% no-repeat padding-box;
-    border: 1px solid #E72F84;
-    border-radius: 15px;
-    color: #FCFCFC;
-    font-size: 31px;
-    font-weight: bold;
 }
 .white-text {
     color: #FCFCFC;
