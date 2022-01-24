@@ -48,7 +48,7 @@ export default {
 
 .about-wrap {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .about-bg img{

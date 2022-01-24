@@ -2,11 +2,11 @@
 
     <div class="actions" :class="mode">
           <div class="actions_social" :class="actionMode">
-            <i class="fab fa-linkedin-in" style="font-size:24px; color:#813188"></i>
-            <i class="fab fa-facebook" style="font-size:24px; color:#813188"></i>
-            <i class="fab fa-youtube" style="font-size:24px; color:#813188" ></i>
+            <a href="https://pl.linkedin.com/company/tutore-edu?trk=ppro_cprof"><i class="fab fa-linkedin-in" style="font-size:24px; color:#813188"></i></a>
+            <a href="https://www.facebook.com/tutore.eu/"><i class="fab fa-facebook" style="font-size:24px; color:#813188"></i></a>
+            <a href="https://www.youtube.com/channel/UCPlfC3SOLzgYEP3fjlOisAQ"><i class="fab fa-youtube" style="font-size:24px; color:#813188" ></i></a>
         </div>
-        <button class="actions_button">Strona firmowa</button>
+        <button onclick="location.href='https://tutore.eu/'" type="button" class="actions_button">Strona firmowa</button>
         <v-menu offset-y>
             <template v-slot:activator="{ on }">
                 <button class="dropdown_button" v-on="on">
@@ -14,11 +14,11 @@
                     <i class="ml-5 fas fa-caret-down" style="font-size:8px; color:#707070" ></i>
                 </button>
             </template>
-            <v-list>
+            <!-- <v-list>
                 <v-list-item >
-                    <!-- langs goes here -->
+                    langs goes here
                 </v-list-item>
-            </v-list>
+            </v-list> -->
         </v-menu>
         <slot class="slot"></slot>
     </div>

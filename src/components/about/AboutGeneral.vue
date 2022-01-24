@@ -17,7 +17,7 @@ export default {
             paragraph: 'Szeroki zakres tematyczny naszych kursów pozwala każdemu znaleźć coś dla siebie, a wykwalifikowana kadra i wysoka jakość zajęć sprawia, że uczestnicy zostają z nami na lata.'
             
         };
-    }    
+    },   
 }
 
 </script>

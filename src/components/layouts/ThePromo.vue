@@ -9,7 +9,7 @@
         </v-row>
       
         <div style="height:181px" class="d-flex align-center justify-center">
-           <button>Zobacz więcej</button>
+           <button @click="scrollToElement('about')">Zobacz więcej</button>
         </div>
         
     </div>
